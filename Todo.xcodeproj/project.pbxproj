@@ -14,6 +14,7 @@
 		3B2CE3B12D3226CF00886539 /* TodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2CE3B02D3226CF00886539 /* TodoTests.swift */; };
 		3B2CE3BB2D3226CF00886539 /* TodoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2CE3BA2D3226CF00886539 /* TodoUITests.swift */; };
 		3B2CE3BD2D3226CF00886539 /* TodoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2CE3BC2D3226CF00886539 /* TodoUITestsLaunchTests.swift */; };
+		3B2CE3CC2D32287100886539 /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2CE3CB2D32287100886539 /* TodoListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		3B2CE3B62D3226CF00886539 /* TodoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B2CE3BA2D3226CF00886539 /* TodoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoUITests.swift; sourceTree = "<group>"; };
 		3B2CE3BC2D3226CF00886539 /* TodoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3B2CE3CB2D32287100886539 /* TodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				3B2CE39F2D3226CE00886539 /* TodoApp.swift */,
+				3B2CE3CB2D32287100886539 /* TodoListView.swift */,
 				3B2CE3A12D3226CE00886539 /* ContentView.swift */,
 				3B2CE3A32D3226CF00886539 /* Assets.xcassets */,
 				3B2CE3A52D3226CF00886539 /* Preview Content */,
@@ -259,6 +262,7 @@
 			files = (
 				3B2CE3A22D3226CE00886539 /* ContentView.swift in Sources */,
 				3B2CE3A02D3226CE00886539 /* TodoApp.swift in Sources */,
+				3B2CE3CC2D32287100886539 /* TodoListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
